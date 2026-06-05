@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product Detail</title>
+
+<link rel="stylesheet" href="../CSS/style.css">
+<link rel="stylesheet" href="../CSS/product.css">
+</head>
+
+<body>
+
+<header class="header">
+<h1>Product Detail</h1>
+</header>
+
+<section id="productDetail"></section>
+
+<button id="buyNowBtn">Buy Now</button>
+
+<section id="orderForm" style="display:none;">
+
+<input type="text" id="name" placeholder="Name">
+<input type="text" id="phone" placeholder="Phone">
+<input type="text" id="phone2" placeholder="Second Phone (Optional)">
+<input type="text" id="city" placeholder="City">
+<input type="text" id="address" placeholder="Address">
+
+<div class="qty-box">
+<button id="minus">-</button>
+<span id="qty">1</span>
+<button id="plus">+</button>
+</div>
+
+<button id="submitOrder">Place Order</button>
+
+</section>
+
+<script src="../JavaScript/config.js"></script>
+<script src="../JavaScript/api.js"></script>
+<script src="../JavaScript/product.js"></script>
+<script src="../JavaScript/order.js"></script>
+
+</body>
+</html>
