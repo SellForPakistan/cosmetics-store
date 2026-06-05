@@ -1,0 +1,40 @@
+.product-box{
+background:#fff;
+padding:15px;
+border-radius:10px;
+}
+
+.product-box img{
+width:100%;
+border-radius:10px;
+}
+
+.qty-box{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:10px;
+margin:15px 0;
+}
+
+.qty-box button{
+padding:8px 12px;
+font-size:18px;
+border:none;
+background:#000;
+color:#fff;
+border-radius:5px;
+}
+
+#orderForm{
+display:flex;
+flex-direction:column;
+gap:10px;
+margin-top:15px;
+}
+
+#orderForm input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:6px;
+}
